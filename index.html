@@ -1,0 +1,32 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta charset=utf-8><meta data-n-head=true property=og:site_name content=PunkWorld><meta data-n-head=true property=og:title content=PunkWorld><meta data-n-head=true property=og:type content=website><meta data-n-head=true property=og:url content=https://punkworld.io><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"><meta name=apple-mobile-web-app-capable content=yes><title data-n-head=true>PunkWorld</title><link data-n-head=true rel=icon type=image/x-icon href=/static/favicon.ico><style>* {
+      margin: 0;
+      padding: 0
+    }
+
+    #cnzz_stat_icon_1278802451 {
+      display: none;
+    }
+
+    .el-message {
+      margin-top: 40px !important;
+    }</style><link href=https://cdn.jsdelivr.net/gh/punkworld/HscPunkWorld/static/css/app.ef6cbd5f72b60e0f54f7b3c5966f1283.css rel=stylesheet></head><body style="margin:0 auto;"><div id=app></div><script>window.dataLayer = window.dataLayer || [];
+
+    const keyCodeMap = {
+      91: true, // command
+      61: true,
+      107: true, //  +
+      109: true, //  -
+      173: true, //  - 
+      187: true, // +
+      189: true, // -
+    };
+    // ctrl||command + ‘+’/‘-’
+    document.onkeydown = function (event) {
+      const e = event || window.event;
+      const ctrlKey = e.ctrlKey || e.metaKey;
+      if (ctrlKey && keyCodeMap[e.keyCode]) {
+        e.preventDefault();
+      } else if (e.detail) { // Firefox
+        event.returnValue = false;
+      }
+    };</script><script src=https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js></script><script src=https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js></script><script src=https://cdn.jsdelivr.net/npm/vue-router@3.0.1/dist/vue-router.min.js></script><script src=https://cdn.jsdelivr.net/npm/vuex@3.0.1/dist/vuex.min.js></script><script src=https://cdn.jsdelivr.net/npm/element-ui@2.13.2/lib/index.js></script><script src=https://cdn.jsdelivr.net/npm/element-ui@2.13.2/lib/umd/locale/zh-CN.js></script><script src=https://cdn.jsdelivr.net/npm/element-ui@2.13.2/lib/umd/locale/en.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/gh/punkworld/HscPunkWorld/static/js/manifest.a01630dfe7ea7aacd5a8.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/gh/punkworld/HscPunkWorld/static/js/vendor.a0b0add85b180fe67347.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/gh/punkworld/HscPunkWorld/static/js/app.88e0a6fccb9905b60087.js></script></body></html>
